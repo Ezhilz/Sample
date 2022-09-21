@@ -11,7 +11,7 @@ public class Sample {
 		System.out.println("Enter the name:");
 		String name = sc.next();
 		System.out.println("Employee name is:"+name);
-			System.out.println("Enter the age:");
+		System.out.println("Enter the age:");
 		byte age = sc.nextByte();
 		System.out.println("Employee age is:"+age);
 		System.out.println("Enter the atm pin:");
@@ -29,11 +29,12 @@ public class Sample {
 		System.out.println("Enter the Salary:");
 		double salary = sc.nextDouble();
 		System.out.println("Employee salary is:"+salary);
-		
+
 		System.out.println("Enter the marital Status:");
 		boolean maritalStatus = sc.nextBoolean();
 		System.out.println("Employee marital Status is:"+maritalStatus);
-		
+		System.out.println("Address");
+
 	}
 
 }
